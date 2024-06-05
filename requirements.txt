@@ -10,3 +10,4 @@ git+https://github.com/cinemagoer/cinemagoer
 pyshorteners==1.0.1
 requests
 pytz
+aiohttp
