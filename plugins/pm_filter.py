@@ -38,8 +38,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"𝖲𝗈𝗋𝗋𝗒 {user} 😔 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗂𝗌 𝗈𝗇𝗅𝗒 𝖿𝗈𝗋 𝗉𝗋𝗈𝗏𝗂𝖽𝗂𝗇𝗀 𝗏𝗂𝖽𝖾𝗈𝗌...\n\nHelp 🤔 / Promotions 📛 👇🏻\n@wownewss_helpbot",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Instagram", url=f"instagram.com/wownewss"),InlineKeyboardButton("Telegram", url=f"telegram.me/wownewsss")]])
+         text=f"𝖲𝗈𝗋𝗋𝗒 {user} 😔 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗂𝗌 𝗈𝗇𝗅𝗒 𝖿𝗈𝗋 𝗉𝗋𝗈𝗏𝗂𝖽𝗂𝗇𝗀 news / You cant text here...\n\nHelp 🤔 / Promotions 📛 👇🏻\n@wownewss_helpbot",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Instagram", url=f"instagram.com/thodanews"),InlineKeyboardButton("Telegram", url=f"telegram.me/thodanews")]])
     )
     
 
