@@ -32,10 +32,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Instagram", url=f"instagram.com/wownewss")
+                InlineKeyboardButton("Instagram", url=f"instagram.com/thodanews")
             ],
             [
-                InlineKeyboardButton('Telegram', url=f"telegram.me/wownewsss")
+                InlineKeyboardButton('Telegram', url=f"telegram.me/thodanews")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -51,9 +51,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("Instagram", url=f"instagram.com/wownewss")
+            InlineKeyboardButton("Instagram", url=f"instagram.com/thodanews")
             ],[
-            InlineKeyboardButton('Telegram', url=f"telegram.me/wownewsss")
+            InlineKeyboardButton('Telegram', url=f"telegram.me/thodanews")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
