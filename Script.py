@@ -152,7 +152,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 🪁 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code> MIB
 🎡 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> MIB"""
 
-    CAPTION = """Join main channel ✅ 👇🏻 @wownewsss"""
+    CAPTION = """Join main channel ✅👉🏻 @thodanews"""
 
     LOG_TEXT_G = """#NewGroup #joker
 🚏 Group = {}(<code>{}</code>)
